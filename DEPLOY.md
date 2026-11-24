@@ -1,0 +1,2 @@
+# GloryTwin 웹 초안
+GitHub 저장소의 기존 README는 유지하고 이 폴더 안의 index.html, style.css, app.js, models, data, images를 저장소 루트에 업로드합니다. Settings > Pages > Deploy from a branch > main / (root) > Save. 로컬 테스트는 폴더에서 python -m http.server 8000 실행 후 http://localhost:8000 접속. 인터넷 연결 필요(Cesium CDN). 별도 ion 토큰 불필요. 실제 브라우저 WebGL 검증은 배포 후 필요합니다. 웹용 GLB는 원본에서 초기 평면 그룹을 씬에서 제외하고 인치→미터 환산 및 Z-up을 적용했습니다. 실제 절대고도와 위치 정합성은 미검증입니다. 공개 전 현장 사진 및 GPS 공개 범위를 학교에서 확인하세요.
